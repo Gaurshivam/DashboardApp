@@ -1,6 +1,6 @@
 .CommonCard{
-    width: 250px;
-    height: 120px;
+    width: 230px;
+    height: 110px;
     background-color: rgb(248, 239, 239);
     border-radius: 10px;
     padding: 5px;
@@ -27,7 +27,7 @@
 .OverView{
     background-color: rgb(248, 239, 239);
     width: 65%;
-    height: 500px;
+    height: 450px;
     border-radius: 10px;
     padding: .2rem;
 }
@@ -35,7 +35,7 @@
 .Customer{
     background-color: rgb(248, 239, 239);
     width: 30%;
-    height: 500px;
+    height: 450px;
     border-radius: 10px;
     margin-right: 2rem;
     padding: .7rem;
