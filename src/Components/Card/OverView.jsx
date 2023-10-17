@@ -47,9 +47,9 @@ const data = {
 const OverView = () => {
   return (
     <div className='OverView'>
-      <div style={{padding:"5px",marginBottom:"10px"}}>
+      <div style={{padding:"1px",marginBottom:"5px"}}>
       <h2>Overview</h2>
-      <p style={{fontSize:"12px",marginLeft:"5px",padding:"2px"}}>Monthly earning</p>
+      <p style={{fontSize:"12px",marginLeft:"5px",padding:"1px"}}>Monthly earning</p>
       </div>
       <div>
       <RevenueByMonthsChart  />
