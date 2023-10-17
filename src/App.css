@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow: hidden;
+}
+
+.App{
+    display: grid;
+    width: 96%;
+    background-color: rgb(188, 190, 190);
+    margin: 0 auto;
+    gap: 1.8rem;
+    grid-template-columns: 14rem auto 23rem ;
+}
+
+/*-------------Media Query-------------*/
+
+@media screen and (max-width:1200px){
+    .App{
+        width: 94%;
+        grid-template-columns: 7rem auto 23rem ;
+    }
+    .logo>h2{
+        display: none;
+    }
+    .SideMid h3{
+        display: none;
+    }
+    .Bottom{
+        display: none;
+    }
+    .MainBar .OverView{
+        width: 100%;
+        margin-left: 2rem;
+        height: 28rem;
+        margin-right: 2rem;
+    }
+    .Navbar{
+        width: 100%;
+        margin-left: 6rem;
+        text-align: center;
+        color: white;
+    }
+    .Input >input{
+        margin-right: 15rem;
+    }
+    .PageOne> .CommonCard{
+        width: 100%;
+        margin-left: 4rem;
+    }
+    .MainBar .Customer{
+        width: 100%;
+        padding: 10px;
+        margin-left: 2rem;
+        height: 32rem;
+    }
+}
+
+
+
+/*-------------Media Query for mobile-------------*/
+
+@media screen and (max-width:768px){
+    .App{
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+    .sidebar{
+        position: fixed;
+        background-color: aliceblue;
+        width: 18rem;
+        z-index: 3;
+        height: 100vh;
+        display: none;
+    }
+    .logo{
+        margin-left: 1rem;
+    }
+    .logo>h2{
+        display: inline;
+    }
+    .SideMid h3{
+        display: inline;
+    }
+    .SideMid a{
+        width: 100%;
+    }
+    .close{
+        display: inline-block;
+        cursor: pointer;
+    }
+    .MainBar .OverView{
+        width: 100%;
+        margin-left: 2rem;
+        height: 15rem;
+    }
+    .Navbar{
+        width: 100%;
+        margin-left: 6rem;
+        text-align: center;
+        color: white;
+    }
+    .MainBar{
+        width: 90vw;
+        background-color: black;
+    }
+    .PageOne> .CommonCard{
+        width: 100%;
+        margin-left: 4rem;
+    }
+    .MainBar .Customer{
+        width: 100%;
+        padding: 10px;
+        margin-left: 2rem;
+        height: 22rem;
+    }
+}

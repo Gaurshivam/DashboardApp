@@ -1,0 +1,23 @@
+.Home{
+    width: 100%;
+    padding: .5rem;
+}
+
+.PageOne{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: .1rem .4rem ;
+}
+
+.PageTwo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin: 20px;
+    width: 100%;
+    height: 100%;
+}
